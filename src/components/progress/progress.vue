@@ -32,7 +32,7 @@
             },
             status: {
                 validator (value) {
-                    return oneOf(value, ['normal', 'active', 'wrong', 'success']);
+                    return oneOf(value, ['normal', 'active', 'wrong', 'success','warning']);
                 },
                 default: 'normal'
             },
